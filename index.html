@@ -41,7 +41,7 @@ canvas{max-height:280px}
 <div id="pw-err">❌ 密碼錯誤</div>
 </div></div>
 <script>
-(function(){var C="1217";var ov=document.getElementById('pw-ov');if(sessionStorage.getItem('cf_ok')==='1'){ov.style.display='none';return;}function chk(){var v=document.getElementById('pw-inp').value;if(v===C){ov.style.display='none';sessionStorage.setItem('cf_ok','1');renderCharts();}else if(v.length===4){document.getElementById('pw-err').style.display='block';document.getElementById('pw-inp').value='';}}document.getElementById('pw-inp').addEventListener('input',chk);})();
+(function(){var C="8250";var ov=document.getElementById('pw-ov');if(sessionStorage.getItem('cf_ok')==='1'){ov.style.display='none';return;}function chk(){var v=document.getElementById('pw-inp').value;if(v===C){ov.style.display='none';sessionStorage.setItem('cf_ok','1');renderCharts();}else if(v.length===4){document.getElementById('pw-err').style.display='block';document.getElementById('pw-inp').value='';}}document.getElementById('pw-inp').addEventListener('input',chk);})();
 </script>
 <header>
 <div><h1>💰 個人金流 Dashboard</h1><div class="muted">更新於 2026-05-27 · 共 346 筆交易</div></div>

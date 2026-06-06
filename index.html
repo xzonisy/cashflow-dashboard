@@ -20,6 +20,7 @@ section{background:#161b22;border:1px solid #30363d;border-radius:10px;padding:1
 section h2{margin:0 0 1rem;font-size:1.1rem}
 .row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
 @media (max-width:900px){.row{grid-template-columns:1fr}}
+@media (max-width:600px){header{padding:1rem;flex-wrap:wrap;gap:.2rem}main{padding:1rem}section,.card{padding:1rem .85rem}h1{font-size:1.15rem}.card .num{font-size:1.5rem}.cards{gap:.7rem}section h2{font-size:1rem;flex-wrap:wrap}th,td{padding:.4rem .45rem;font-size:.82rem}section{overflow-x:auto;-webkit-overflow-scrolling:touch}table{min-width:460px}#pw-box{padding:2rem 1.5rem}#pw-inp{font-size:1.8rem;letter-spacing:.7rem;width:130px}}
 table{width:100%;border-collapse:collapse;font-size:.9rem}
 th,td{padding:.5rem .7rem;text-align:left;border-bottom:1px solid #21262d}
 th{color:#8b949e;font-weight:500;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em}
@@ -41,7 +42,7 @@ canvas{max-height:280px}
 <div id="pw-err">❌ 密碼錯誤</div>
 </div></div>
 <script>
-(function(){var C="4988";var ov=document.getElementById('pw-ov');if(sessionStorage.getItem('cf_ok')==='1'){ov.style.display='none';return;}function chk(){var v=document.getElementById('pw-inp').value;if(v===C){ov.style.display='none';sessionStorage.setItem('cf_ok','1');renderCharts();}else if(v.length===4){document.getElementById('pw-err').style.display='block';document.getElementById('pw-inp').value='';}}document.getElementById('pw-inp').addEventListener('input',chk);})();
+(function(){var C="7810";var ov=document.getElementById('pw-ov');if(sessionStorage.getItem('cf_ok')==='1'){ov.style.display='none';return;}function chk(){var v=document.getElementById('pw-inp').value;if(v===C){ov.style.display='none';sessionStorage.setItem('cf_ok','1');renderCharts();}else if(v.length===4){document.getElementById('pw-err').style.display='block';document.getElementById('pw-inp').value='';}}document.getElementById('pw-inp').addEventListener('input',chk);})();
 </script>
 <header>
 <div><h1>💰 個人金流 Dashboard</h1><div class="muted">更新於 2026-06-06 · 共 358 筆交易</div></div>
